@@ -1,0 +1,167 @@
+.half-circle {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(189, 51, 51);
+    border-bottom-left-radius: 810px;  
+    border-bottom-right-radius: 810px; 
+    border-top: 0;
+    position: absolute;
+    top: 0%;
+    left: 590px
+
+}
+#email{
+    position: absolute;
+    opacity: 50%;
+    top:320px;
+    left: 500px;
+    
+}
+#email:hover{
+    opacity: 100%;
+}
+
+#fb{
+    position: absolute;
+    opacity: 50%;
+    top:320px;
+    left: 545px;
+    
+}
+#fb:hover{
+    opacity: 100%;
+}
+
+.stamp{
+    position: relative;
+    top: 42%;
+    left: 5%;
+}
+
+.headline {
+    position: inherit;
+    left: 0%;
+    top:-25%;
+    color:  rgba(205, 209, 170, 0.438);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 180px;
+    font-weight: bold;
+   
+} 
+.Lorem{
+    position: absolute;
+    max-width: 380px;
+    top: 45%;
+    left: 35% ;
+    color: rgb(221, 183, 12);
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+body{
+        background-image: url("./Images/bg.png");
+        text-align: left;
+        color: black;
+        font-family: sans-serif;
+
+}
+    main {
+        
+        position: absolute;
+        max-width: 800px;
+        text-align: center;
+        color: brown;
+        font-family: sans-serif;
+        font-size: large;
+        top: 50%;
+        left: 30%;
+        right: 30%;
+    }
+    h2{
+        color: rgb(189, 51, 51);
+        text-align: center; 
+    }
+    h3{
+        color: rgb(189, 51, 51);
+        text-align: left;
+    }
+
+p{
+    color: black;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color:  rgb(221, 183, 12);
+    font-size: 20px;
+}
+
+a:hover{ 
+    color: rgb(52, 168, 23);
+    transition: 0,5;
+}
+
+.navbar  {
+    position: fixed;
+    display: block;
+    justify-content: center;
+    top: 0;
+    right: 130px;
+    background-color: rgb(189, 51, 51);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.currentpage{
+    
+    color:  rgba(205, 209, 170, 0.438);
+}
+
+.box1 {
+    width: 800px;
+    display: contents;
+    margin: center;
+    text-align: center;
+}
+.steckbrief {
+    max-width: 800px;
+    display: contents;
+    margin: auto;
+    text-align: left;
+}
+body {font-family: sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid rgb(189, 51, 51);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(189, 51, 51);
+  color:  rgb(221, 183, 12);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+}
+
+input[type=submit]:hover {
+  background-color:  rgb(52, 168, 23);
+  color: rgb(189, 51, 51);
+}
+
+.container {
+  background-color: #f2f2f200;
+}
