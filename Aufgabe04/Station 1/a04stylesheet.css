@@ -4,7 +4,7 @@ body {
     position: sticky;
     color: ivory;
    
-    
+    /*Habe Prozentangaben statt "px" verwendet - hoffe dennoch okay*/
 }
 
 .flexbox{ 
