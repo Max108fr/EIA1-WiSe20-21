@@ -1,0 +1,34 @@
+body {
+    background-image: url("./Images/bg.png");
+    position: sticky;
+}
+
+.flexbox{ 
+
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.wrapper{
+    position: relative;
+    background-image: url("./Images/wrapperbg.png");
+    top: 150px;
+    
+}
+.iframe {
+    position: relative;
+    width: 560px;
+    height: 360px;
+    left: 18px;
+    top: 18px;
+}
+.banderole {
+    position: absolute;
+    right: 7px;
+    bottom: 2px;
+    z-index: 2;
+}
+
+  
