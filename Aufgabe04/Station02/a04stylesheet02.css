@@ -1,6 +1,6 @@
 body {
     background-image: url("./Images/bg.png");
-    font-family: 'Courier New', Courier, monospace;
+    font-family: calibri;
     position: sticky;
     color: ivory;
 }
@@ -10,10 +10,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
 	height: 400px;
     width: 600px;
-    margin: auto;
     top: 175px;
     left: 650px;
 
@@ -28,7 +27,7 @@ body {
     .star01 {
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 10%;
     z-index: 3;
 }
     .star01:hover {
@@ -37,8 +36,8 @@ body {
 }
     .star02 {
     position: absolute;
-    left: 80%;
-    top: 40%;
+    left: 25%;
+    top: 70%;
     z-index: 3;
 }
     .star02:hover {
@@ -47,8 +46,8 @@ body {
 }
     .star03 {
     position: absolute;
-    left: 45%;
-    top: 28%;
+    left: 70%;
+    top: 30%;
     z-index: 3;
 }
     .star03:hover {
@@ -57,7 +56,7 @@ body {
 }
     .star04 {
     position: absolute;
-    left: 48%;
+    left: 80%;
     top: 70%;
     z-index: 3;
 }
@@ -72,7 +71,7 @@ h2 {
     font-size: 30px;
     font-weight: bold;
     top: 6%;
-    left: 14%;
+    left: 30%;
     z-index: 2;
 }
 
