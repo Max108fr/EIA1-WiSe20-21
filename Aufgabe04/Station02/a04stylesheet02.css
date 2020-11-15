@@ -1,0 +1,105 @@
+body {
+    background-image: url("./Images/bg.png");
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    color: ivory;
+}
+
+.flexbox{ 
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+	height: 400px;
+    width: 600px;
+    margin: auto;
+    top: 175px;
+    left: 650px;
+
+}
+
+.wrapper{
+    position: absolute;
+    background-image: url("./Images/wrapperbg.png");
+    z-index: 0;
+
+}
+    .star01 {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    z-index: 3;
+}
+    .star01:hover {
+    background-image: url("./Images/stern_hover.png");
+    position: absolute;
+}
+    .star02 {
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    z-index: 3;
+}
+    .star02:hover {
+    background-image: url("./Images/stern_hover.png");
+    position: absolute;
+}
+    .star03 {
+    position: absolute;
+    left: 45%;
+    top: 28%;
+    z-index: 3;
+}
+    .star03:hover {
+    background-image: url("./Images/stern_hover.png");
+    position: absolute;
+}
+    .star04 {
+    position: absolute;
+    left: 48%;
+    top: 70%;
+    z-index: 3;
+}
+    .star04:hover {
+    background-image: url("./Images/stern_hover.png");
+    position: absolute;
+}
+
+
+h2 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 6%;
+    left: 14%;
+    z-index: 2;
+}
+
+h3 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    top: 40%;
+    left: 14%;
+    z-index: 2;
+}
+
+p {
+    position: absolute;
+    max-width: 450px;
+    left: 14%;
+    top: 50%;
+    font-weight: lighter;
+}
+
+.Unterschrift {
+    position: absolute;
+    max-width: 450px;
+    left: 14%;
+    top: 60%;
+    font-weight: normal;
+    font-size: 20px;
+    font-style: italic;
+}
+  
