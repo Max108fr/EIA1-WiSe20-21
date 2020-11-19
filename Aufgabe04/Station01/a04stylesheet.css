@@ -6,6 +6,32 @@ body {
    
     /*Habe Prozentangaben statt "px" verwendet - hoffe dennoch okay*/
 }
+.navbar  {
+    position: fixed;
+    display: block;
+    justify-content: center;
+    top: 0;
+    right: 100px;
+    background-color: rgb(116, 23, 23);
+    padding-left: 200px;
+    padding-right: 300px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.currentpage{
+    
+    color:  rgb(14, 18, 248);
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color:  rgb(255, 0, 0);
+    font-size: 20px;
+}
+a:hover{ 
+    color: rgb(255, 217, 0);
+    transition: 0,5;
+}
 
 .flexbox{ 
 
