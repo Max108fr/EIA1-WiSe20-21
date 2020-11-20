@@ -24,6 +24,7 @@ section {
 
 .europe:hover {
     opacity: 100%;
+    transition: all 0.5s;
 }
 
 .northamerica {
@@ -32,6 +33,7 @@ section {
 
 .northamerica:hover {
     opacity: 100%;
+    transition: all 0.5s;
 }
 
 .southamerica {
@@ -39,24 +41,28 @@ section {
 }
 .southamerica:hover {
     opacity: 100%;
+    transition: all 0.5s;
 }
 .africa {
     opacity: 70%;
 }
 .africa:hover {
     opacity: 100%;
+    transition: all 0.5s;
 }
 .asia {
     opacity: 70%;
 }
 .asia:hover {
     opacity: 100%;
+    transition: all 0.5s;
 }
 .australia {
     opacity: 70%;
 }
 .australia:hover {
     opacity: 100%;
+    transition: all 0.5s;
 }
 
 footer p {
