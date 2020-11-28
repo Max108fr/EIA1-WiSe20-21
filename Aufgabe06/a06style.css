@@ -1,0 +1,102 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("./Images/smoke_red_bg.jpg");
+    background-size: cover;
+}
+
+nav {
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+nav img:hover {
+    opacity: 60%;
+    transition: all 0.5s;
+}
+
+section {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+.world {
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+}
+
+.world img:hover {
+    opacity: 60%;
+    transition: all 0.5s;
+}
+
+.chartWrapper {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.chartWrapper .chart {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background: white;
+}
+
+footer p {
+    margin-top: 50px;
+    font-size: 10px;
+    opacity: .5;
+}
+
+.cloud1{
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    animation-duration: 10s;
+    animation-name: flake1;
+    animation-iteration-count: infinite;
+    animation-delay:0.1s;
+    }
+    @keyframes flake1 {from{
+    top: 800px;
+    left: 1px;
+    opacity: 100%;
+    }
+    to {
+    top: 150px;
+    left: 300px;
+    opacity: 10%;
+    }
+}
+
+.cloud2{
+    position: absolute;
+    top: -5px;
+    left: 45px;
+    animation-duration: 15s;
+    animation-name: flake2;
+    animation-iteration-count: infinite;
+    animation-delay:0.1s;
+    }
+    @keyframes flake2 {from{
+    top: 800px;
+    left: 1300px;
+    opacity: 70%;
+    }
+    to {
+    top: 150px;
+    left: 900px;
+    opacity: 10%;
+    }
+}
+
