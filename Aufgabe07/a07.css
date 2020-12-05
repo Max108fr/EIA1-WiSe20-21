@@ -43,13 +43,13 @@ body {
     background-image: linear-gradient(#ff0000, #942424);
 }
 #G {
-    background-image: linear-gradient(#ffd88f, #ffd88f);
+    background-image: linear-gradient(to right, #ca684a, #ffd88f);
 }
 #hihat {
-    background-image: linear-gradient(#da5740, #ffd88f);
+    background-image: linear-gradient(#ca684a, #ffd88f);
 }
 #kick {
-    background-image: linear-gradient(#ffd88f, #ffd88f);
+    background-image: linear-gradient(to left, #ca684a, #ffd88f);
 }
 #laugh1 {
     background-image: linear-gradient(#757575, #ffffff);
