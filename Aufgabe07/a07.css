@@ -1,0 +1,65 @@
+body {
+    background-image: url('./Images/AlessandroViaro.jpg');
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    width: 488px;
+    height: 800px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pad {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    -moz-box-shadow:    inset 0 0 30px #6e6e6e5d;
+    -webkit-box-shadow: inset 0 0 30px #6e6e6e5d;
+    box-shadow:         inset 0 0 30px #6e6e6e5d;
+}
+.pad:hover{
+    -moz-box-shadow:    inset 0 0 30px #0000005d;
+    -webkit-box-shadow: inset 0 0 30px #0000005d;
+    box-shadow:         inset 0 0 30px #0000005d;
+    cursor: pointer;
+}
+.playbutt {
+    opacity: 100%;
+}
+.playbutt:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+#A {
+    background-image: linear-gradient(#ff0000, #942424);
+}
+#C {
+    background-image: linear-gradient(#ff0000, #fd3d3d);
+}
+#F {
+    background-image: linear-gradient(#ff0000, #942424);
+}
+#G {
+    background-image: linear-gradient(#ffd88f, #ffd88f);
+}
+#hihat {
+    background-image: linear-gradient(#da5740, #ffd88f);
+}
+#kick {
+    background-image: linear-gradient(#ffd88f, #ffd88f);
+}
+#laugh1 {
+    background-image: linear-gradient(#757575, #ffffff);
+}
+#laugh2 {
+    background-image: linear-gradient(#d6d6d6, #ffffff);
+}
+#snare {
+    background-image: linear-gradient(#757575, #ffffff);
+}
+.placehodler {
+    opacity: 10%;
+}

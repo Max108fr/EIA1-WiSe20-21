@@ -1,6 +1,7 @@
 .nav {
-    position: relative;
-    content: center;
+    position: fixed;
+    display: block;
+    justify-content: center;
     color: white;
-    
-}
+    top: 50%;
+   }
