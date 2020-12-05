@@ -1,7 +1,10 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
 .nav {
     position: fixed;
     display: block;
-    justify-content: center;
     color: white;
     top: 50%;
    }
