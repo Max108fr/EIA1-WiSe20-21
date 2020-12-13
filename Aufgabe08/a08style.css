@@ -1,0 +1,109 @@
+html{
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(#00eeff, #0b55b6);
+    position: relative;
+    display: grid;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px 15px;
+    padding-top: 150px;
+    margin: auto;
+}
+.controls{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    color: #171b49;
+    font-size: 75px;
+    margin-top: 30px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.pad {
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+    box-shadow: 5px 10px 5px black;
+}
+.pad:hover{
+    width: 149px;
+    height: 149px;
+    box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#drop1 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop2 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop3 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop4 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop5 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop6 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop7 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop8 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+#drop9 {
+    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+.playButton{
+font-size: 70px;
+left: -30%;
+margin: 4%;
+}
+.playButton:hover {
+    color: rgb(2, 226, 255);
+    transition-duration: 0.2s;
+}
+.inactive {
+    display: none !important;
+}
+.stopButton {
+    font-size: 70px;
+}
+.stopButton:hover {
+    color: rgb(2, 226, 255);
+    transition-duration: 0.2s;
+ }
+ .recordButton {
+    font-size: 70px;
+}
+.recordButton:hover {
+    color: #ff000073;
+    transition-duration: 0.2s;
+}
+.deleteButton {
+    font-size: 70px;
+}
+
+.deleteButton:hover {
+    color: rgb(2, 226, 255);
+    transition-duration: 0.2s;
+}
+
+.active {
+      color: #ff0000;
+}
+
