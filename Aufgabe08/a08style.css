@@ -33,7 +33,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 70px;
-    box-shadow: 5px 10px 5px black;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.37);
 }
 .pad:hover{
     width: 149px;
@@ -42,31 +42,58 @@ body {
     cursor: pointer;
 }
 #drop1 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(315deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop1:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop2 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(0deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop2:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop3 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(45deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop3:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop4 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(270deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop4:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop5 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: radial-gradient(circle, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop5:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop6 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(90deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop6:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop7 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(225deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop7:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop8 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(180deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop8:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 #drop9 {
-    background-image: radial-gradient(circle, rgba(17,12,201,1) 0%, rgba(80,73,194,1) 40%, rgba(90,210,255,1) 80%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(135deg, rgba(0,238,255,1) 0%, rgba(11,85,182,1) 100%);
+}
+#drop1:hover{
+    background-image: radial-gradient(circle, rgba(11,85,182,1) 0%, rgba(0,238,255,1) 100%);
 }
 .playButton{
 font-size: 70px;
