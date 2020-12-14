@@ -10,45 +10,47 @@ var drumpad = [
     new Audio("./Sounds/laugh-2.mp3"),
     new Audio("./Sounds/snare.mp3")
 ];
-function playSample(soundName) {
+// tslint:disable-next-line: typedef
+function playBeat(soundName) {
     soundName.play();
 }
 document.querySelector("#A").addEventListener("click", function () {
-    playSample(drumpad[0]);
+    playBeat(drumpad[0]);
 });
 document.querySelector("#C").addEventListener("click", function () {
-    playSample(drumpad[1]);
+    playBeat(drumpad[1]);
 });
 document.querySelector("#F").addEventListener("click", function () {
-    playSample(drumpad[2]);
+    playBeat(drumpad[2]);
 });
 document.querySelector("#G").addEventListener("click", function () {
-    playSample(drumpad[3]);
+    playBeat(drumpad[3]);
 });
 document.querySelector("#hihat").addEventListener("click", function () {
-    playSample(drumpad[4]);
+    playBeat(drumpad[4]);
 });
 document.querySelector("#kick").addEventListener("click", function () {
-    playSample(drumpad[5]);
+    playBeat(drumpad[5]);
 });
 document.querySelector("#laugh1").addEventListener("click", function () {
-    playSample(drumpad[6]);
+    playBeat(drumpad[6]);
 });
 document.querySelector("#laugh2").addEventListener("click", function () {
-    playSample(drumpad[7]);
+    playBeat(drumpad[7]);
 });
 document.querySelector("#snare").addEventListener("click", function () {
-    playSample(drumpad[8]);
+    playBeat(drumpad[8]);
 });
 var sequence = [0, 1, 0, 2, 0, 3, 0, 5, 4, 8, 5, 4, 8, 6];
 var IndexOfSequence = 0;
 function Melody() {
     setInterval(function () {
-        playSample(drumpad[sequence[IndexOfSequence]]);
+        playBeat(drumpad[sequence[IndexOfSequence]]);
         IndexOfSequence = IndexOfSequence + 1;
     }, 1000);
 }
 document.querySelector('#playbutt').addEventListener('click', function () {
     Melody();
 });
+console.log("background: © unsplash/Alessandro Viaro");
 //# sourceMappingURL=a07.js.map
