@@ -1,0 +1,87 @@
+html{
+    height: 100%;
+}
+body {
+    background-image: url(./Images/ekamelev-Adpsgy4JFIE-unsplash.jpg);
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+.container1{
+    display: grid;
+    width: 500px;
+    height: 100px;
+    opacity: 50%;
+    justify-content: center;
+}
+ul{
+    padding: 5px;
+}
+.StuffyStuff{
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    width: 500px;
+    height: 100px;
+}
+.Task{
+    padding-left: 15px;
+    margin: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    align-items: center;
+    justify-self: center ;
+    position: relative;
+    list-style: none;
+    display: flex;
+    width: 500px;
+    height: 80px;
+    background-color: white;
+    border-radius: 30px;
+    border: 4px solid rgb(9, 94, 21);
+}
+.checkbox{
+    color: rgb(23, 117, 23);
+    left: -100%;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+#label{
+    width: 500px;
+    height: 70px; 
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.trash{
+    position: absolute;
+    left: 90%;
+    color: rgb(47, 116, 20);
+}
+.trash:hover{
+    color: rgb(207, 24, 24);
+    cursor: pointer;
+}
+.copyright{
+    position: fixed;
+    color: white;
+    top: 810px;
+    left: 1490px;
+}
