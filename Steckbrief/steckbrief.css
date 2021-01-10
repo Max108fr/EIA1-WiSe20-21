@@ -44,7 +44,7 @@ body {
   .a07 { grid-area: a07; }
   .a08 { grid-area: a08; }
   .a09 { grid-area: a09; }
-  .a10 { grid-area: a10; opacity: 10%; }
+  .a10 { grid-area: a10; }
   .a11 { grid-area: a11; opacity: 10%; }
   .a12 { grid-area: a12; opacity: 10%; }
   .repo { grid-area: repo; } 
